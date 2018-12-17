@@ -1,0 +1,198 @@
+PS C:\Users\Admin\Desktop\SBA\ProjectManagerService\packages\NBench.Runner.1.2.2\tools\net452> .\NBench.Runner.exe C:\Users\Admin\Desktop\SBA\ProjectManagerService\ProjectManagementPerfomanceTest\bin\Debug\ProjectManagementPerfomanceTest.dll --output-directory="C:\Perf"
+Executing Benchmarks in C:\Users\Admin\Desktop\SBA\ProjectManagerService\ProjectManagementPerfomanceTest\bin\Debug\ProjectManagementPerfomanceTest.dll
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkCreateUserDetail ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.2081690
+Elapsed Time - ms: 1,208.00 ,ms: /s 999.86 , ns / ms: 10,00,139.90
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkCreateUserDetail ---------------
+****************************************************************
+ Bench Mark Details for Create UserDetails  Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 1,208.00 ms, Average: 1,208.00 ms, Min: 1,208.00 ms, StdDev: 0.00 ms
+Elapsed Time: Max / s: 999.86 ms, Average / s: 999.86 ms, Min / s: 999.86 ms, StdDev / s: 0.00 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkCreateUserDetail ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllUserDetails ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:00.8172303
+Elapsed Time - ms: 817.00 ,ms: /s 999.72 , ns / ms: 10,00,281.88
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllUserDetails ---------------
+****************************************************************
+ Bench Mark Details for GetAllUserDetailsRecord Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 817.00 ms, Average: 817.00 ms, Min: 817.00 ms, StdDev: 0.00 ms
+Elapsed Time: Max / s: 999.72 ms, Average / s: 999.72 ms, Min / s: 999.72 ms, StdDev / s: 0.00 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllUserDetails ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkUserDetailsById ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:00.9599557
+Elapsed Time - ms: 960.00 ,ms: /s 1,000.05 , ns / ms: 9,99,953.85
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkUserDetailsById ---------------
+****************************************************************
+ Bench Mark Details for GetUserDetailsRecordByUSerId Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 960.00 ms, Average: 960.00 ms, Min: 960.00 ms, StdDev: 0.00 ms
+Elapsed Time: Max / s: 1,000.05 ms, Average / s: 1,000.05 ms, Min / s: 1,000.05 ms, StdDev / s: 0.00 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkUserDetailsById ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkUserDetailDeleteById ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:00.7160471
+Elapsed Time - ms: 716.00 ,ms: /s 999.93 , ns / ms: 10,00,065.78
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkUserDetailDeleteById ---------------
+****************************************************************
+ Bench Mark Details for Delete UserDetails by Id Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 716.00 ms, Average: 716.00 ms, Min: 716.00 ms, StdDev: 0.00 ms
+Elapsed Time: Max / s: 999.93 ms, Average / s: 999.93 ms, Min / s: 999.93 ms, StdDev / s: 0.00 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkUserDetailDeleteById ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkSaveTaskDetils ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.0270081
+Elapsed Time - ms: 1,027.00 ,ms: /s 999.99 , ns / ms: 10,00,007.89
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.2095509
+Elapsed Time - ms: 1,209.00 ,ms: /s 999.54 , ns / ms: 10,00,455.67
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkSaveTaskDetils ---------------
+****************************************************************
+ Bench Mark Details for Create TaskDetails  Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 1,209.00 ms, Average: 1,118.00 ms, Min: 1,027.00 ms, StdDev: 128.69 ms
+Elapsed Time: Max / s: 999.99 ms, Average / s: 999.77 ms, Min / s: 999.54 ms, StdDev / s: 0.32 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkSaveTaskDetils ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetDetailsById ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:38.0619534
+Elapsed Time - ms: 38,062.00 ,ms: /s 1,000.00 , ns / ms: 9,99,998.78
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetDetailsById ---------------
+****************************************************************
+ Bench Mark Details for GetDetailsById Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 38,062.00 ms, Average: 38,062.00 ms, Min: 38,062.00 ms, StdDev: 0.00 ms
+Elapsed Time: Max / s: 1,000.00 ms, Average / s: 1,000.00 ms, Min / s: 1,000.00 ms, StdDev / s: 0.00 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetDetailsById ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllParentTaskDetails ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.0697813
+Elapsed Time - ms: 1,069.00 ,ms: /s 999.27 , ns / ms: 10,00,730.87
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllParentTaskDetails ---------------
+****************************************************************
+ Bench Mark Details for GetAllParentTaskDetails Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 1,069.00 ms, Average: 1,069.00 ms, Min: 1,069.00 ms, StdDev: 0.00 ms
+Elapsed Time: Max / s: 999.27 ms, Average / s: 999.27 ms, Min / s: 999.27 ms, StdDev / s: 0.00 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllParentTaskDetails ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllTaskDetails ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:30.5893626
+Elapsed Time - ms: 30,589.00 ,ms: /s 999.99 , ns / ms: 10,00,011.85
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllTaskDetails ---------------
+****************************************************************
+ Bench Mark Details for GetAllTaskDetails Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 30,589.00 ms, Average: 30,589.00 ms, Min: 30,589.00 ms, StdDev: 0.00 ms
+Elapsed Time: Max / s: 999.99 ms, Average / s: 999.99 ms, Min / s: 999.99 ms, StdDev / s: 0.00 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllTaskDetails ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkSaveProjectDetails ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.1075186
+Elapsed Time - ms: 1,108.00 ,ms: /s 1,000.43 , ns / ms: 9,99,565.52
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.0969750
+Elapsed Time - ms: 1,097.00 ,ms: /s 1,000.02 , ns / ms: 9,99,977.21
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkSaveProjectDetails ---------------
+****************************************************************
+ Bench Mark Details for Create ProjectDetails  Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 1,108.00 ms, Average: 1,102.50 ms, Min: 1,097.00 ms, StdDev: 7.78 ms
+Elapsed Time: Max / s: 1,000.43 ms, Average / s: 1,000.23 ms, Min / s: 1,000.02 ms, StdDev / s: 0.29 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkSaveProjectDetails ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllProjectDetail ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:52.7931633
+Elapsed Time - ms: 52,793.00 ,ms: /s 1,000.00 , ns / ms: 10,00,003.09
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:47.4801997
+Elapsed Time - ms: 47,481.00 ,ms: /s 1,000.02 , ns / ms: 9,99,983.14
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllProjectDetail ---------------
+****************************************************************
+ Bench Mark Details for GetAllProjectDetail Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 52,793.00 ms, Average: 50,137.00 ms, Min: 47,481.00 ms, StdDev: 3,756.15 ms
+Elapsed Time: Max / s: 1,000.02 ms, Average / s: 1,000.01 ms, Min / s: 1,000.00 ms, StdDev / s: 0.01 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkGetAllProjectDetail ---------- 
+------------ STARTING ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkDeleteProjectDetail ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.3414373
+Elapsed Time - ms: 1,341.00 ,ms: /s 999.67 , ns / ms: 10,00,326.10
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.3587245
+Elapsed Time - ms: 1,359.00 ,ms: /s 1,000.20 , ns / ms: 9,99,797.28
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkDeleteProjectDetail ---------------
+****************************************************************
+ Bench Mark Details for DeleteProjectDetail Method
+ * ***************************************************************
+--------------- DATA ---------------
+Elapsed Time: Max: 1,359.00 ms, Average: 1,350.00 ms, Min: 1,341.00 ms, StdDev: 12.73 ms
+Elapsed Time: Max / s: 1,000.20 ms, Average / s: 999.94 ms, Min / s: 999.67 ms, StdDev / s: 0.37 ms
+
+
+------------ FINISHED ProjectManagementPerfomanceTest.BenchMarkProjectManagement+BenchMarkDeleteProjectDetail ---------- 
